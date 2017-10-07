@@ -1,0 +1,70 @@
+header {width: 100%;height: 385px;overflow: visible;}
+
+button {
+    width: 100px;
+    height: 30px;
+    display: block;
+    border-radius: 50px;
+    border: solid 1px rgba(255,255,255,0.5);
+    background:rgba(24,42,74,0.8);
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(255,255,255,0.7);
+    font-family: "Microsoft YaHei";
+    float: left;
+    margin-right: 20px;
+}
+button:hover,
+button:focus {
+    background: rgba(24,42,74,1);
+    border-color:rgba(255,255,255,1);
+    color: rgba(255,255,255,1);
+}
+
+/*最新消息、一周热点*/
+.forum_top_news{width: 100%;height: 380px;background: rgba(68,138,202,0.1);margin-bottom: 10px;}
+
+.latest_article{width: 48%;height: 300px;margin: 0 10px;float: left;}
+.latest_article ul li{height: 30px;list-style-type: disc;color: rgba(255,255,255,0.8);}
+.latest_article ul li a{color: rgba(158,173,205,1);text-decoration: none;font-family: "Lucida Grande","Century Gothic";font-size: 15px;}
+.latest_article ul li a:hover{text-decoration: underline;color: rgba(255,255,255,1);}
+.hot_article{width: 48%;height: 300px;margin: 0 10px;float: left;}
+.hot_article ul li{height: 30px;list-style-type: disc;color: rgba(255,255,255,0.8);}
+.hot_article ul li a{color: rgba(158,173,205,1);text-decoration: none;font-family: "Lucida Grande","Century Gothic";font-size: 15px;}
+.hot_article ul li a:hover{text-decoration: underline;color: rgba(255,255,255,1);}
+
+.forum_left_part {width: 68%;height: auto;float: left;}
+/*游戏开发*/
+.game_development {width: 100%;height: 390px;background: rgba(68,138,202,0.1);margin-bottom: 10px;}
+.game_development ul{list-style-type: none;}
+.game_development ul li{float: left;width: 180px;margin: 10px;}
+.game_development ul li a{text-decoration: none;color: rgba(255,255,255,0.7);font-size: 17px;font-family: "Microsoft YaHei";}
+.game_development ul li a:hover{color: rgba(255,255,255,1);text-decoration: underline;}
+.game_development ul li b{color: rgba(255,182,182,0.8);font-size: 17px;font-family: "Lucida Grande","Century Gothic";margin-left: 10px;}
+.game_development ul li span{color: rgba(255,255,255,0.8);font-family: "Lucida Grande","Century Gothic";font-size: 13px;}
+/*游戏产业*/
+.game_industry{width: 100%;height: 180px;background: rgba(68,138,202,0.1);margin-bottom: 10px;}
+.game_industry ul{list-style-type: none;}
+.game_industry ul li{float: left;width: 180px;margin: 10px;}
+.game_industry ul li a{text-decoration: none;color: rgba(255,255,255,0.7);font-size: 17px;font-family: "Microsoft YaHei";}
+.game_industry ul li a:hover{color: rgba(255,255,255,1);text-decoration: underline;}
+.game_industry ul li b{color: rgba(255,182,182,0.8);font-size: 17px;font-family: "Lucida Grande","Century Gothic";margin-left: 10px;}
+.game_industry ul li span{color: rgba(255,255,255,0.8);font-family: "Lucida Grande","Century Gothic";font-size: 13px;}
+/*专题研讨*/
+.game_topic {width: 100%;height: 380px;background: rgba(68,138,202,0.1);margin-bottom: 10px;}
+.game_topic ul{list-style-type: none;}
+.game_topic ul li{float: left;width: 180px;margin: 10px;}
+.game_topic ul li a{text-decoration: none;color: rgba(255,255,255,0.7);font-size: 17px;font-family: "Microsoft YaHei";}
+.game_topic ul li a:hover{color: rgba(255,255,255,1);text-decoration: underline;}
+.game_topic ul li b{color: rgba(255,182,182,0.8);font-size: 17px;font-family: "Lucida Grande","Century Gothic";margin-left: 10px;}
+.game_topic ul li span{color: rgba(255,255,255,0.8);font-family: "Lucida Grande","Century Gothic";font-size: 13px;}
+
+
+.forum_right_part {width: 31%;float: right; height: 390px}
+/*最新帖子*//*最新回复*/
+.latest{width: 100%;height: 390px;background: rgba(68,138,202,0.1);margin-bottom: 10px;}
+.latest ul li{height: 30px;list-style-type: disc;color: rgba(255,255,255,0.8);}
+.latest ul li a{color: rgba(158,173,205,1);text-decoration: none;font-family: "Lucida Grande","Century Gothic";font-size: 15px;}
+.latest ul li a:hover{text-decoration: underline;color: rgba(255,255,255,1);}

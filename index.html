@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta property="qc:admins" content="1434536605567167311416636">
+    <title>
+
+        GameCenter6
+
+    </title>
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <!--<script src="/static/js/plugins/jquery.js"></script>-->
+    <!--<script src="/static/js/plugins/jquery_cookie.js"></script>-->
+    <!--<script src="/static/js/base.js"></script>-->
+
+    <link rel="stylesheet" type="text/css" href="static/css/index.css">
+    <!--<script src="/static/js/plugins/jquery-md5.js"></script>-->
+    <!--<script src="/static/js/index.js"></script>-->
+
+</head>
+<body>
+<header>
+    <div>
+        <img class="hImage" src="static/img/bg_Top.png">
+    </div>
+    <!--nav-->
+    <nav class="mainNav">
+        <ul>
+            <li><a href="/">首页</a></li>
+            <li><a href="nav/game.html">游戏</a></li>
+            <li><a href="nav/news.html">资讯</a></li>
+            <li><a href="nav/forum.html">论坛</a></li>
+            <li><a href="nav/download.html">下载</a></li>
+            <li><a href="nav/job.html">招聘</a></li>
+            <li><a href="nav/special.html">数媒</a></li>
+        </ul>
+    </nav>
+
+    <!--title-->
+    <div class="box">
+        <img class="gameCenter6" src="static/img/GameCenter6.png" alt="GameCenter6">
+    </div>
+
+    <!--search-->
+    <div class="box">
+        <section class="search">
+            <form action="/" method="get">
+                <input id="search" type="search" name="search" placeholder="请输入关键字...">
+                <button type="submit">Search</button>
+            </form>
+        </section>
+    </div>
+</header>
+
+
+<!--main-body-->
+<article class="contents">
+    <!--login-->
+
+    <section class="login">
+        <div class="module_title_login">登录/注册</div>
+        <form enctype="application/x-www-form-urlencoded">
+            <input type="hidden" name="csrfmiddlewaretoken" value="AliydqiIWpHCuZae3RHVnQrwWWM3WSUd">
+            <input id="username" type="text" name="username" required="" title="Username required" placeholder="请输入注册邮箱" data-icon="U">
+            <input id="password" type="password" name="password" required="" title="Password required" placeholder="请输入密码" data-icon="x">
+            <div class="menu_login">
+                <div class="col" style="color: rgba(255,255,255,0.5);">第三方登录：</div>
+                <div class="col">
+                    <img src="/static/img/qq_log.png" style="width: 16px">
+                    <a style="margin-left: 20px" href="/user/qq_login" title="Register">QQ登录</a>
+                </div>
+
+            </div>
+            <div class="menu_login">
+                <div class="col"><a href="/user/register" title="Register">注册</a></div>
+                <div class="col"><a href="#" title="Recuperar Password">忘记密码？</a></div>
+            </div>
+            <br>
+            <input type="button" onclick="login()" value="登录">
+        </form>
+    </section>
+
+    <!--pic_rool-->
+    <section class="pic">
+        <embed src="http://player.youku.com/player.php/sid/XMTQ3NDU1MzE3Mg==/v.swf" width="650" height="353" type="application/x-shockwave-flash" allowfullscreen="true" isautodisplay="true">
+
+
+    </section>
+    <!--game-->
+    <section class="game">
+        <div class="module_title">热门游戏</div>
+        <ul>
+
+        </ul>
+
+    </section>
+    <!--job-->
+    <section class="job">
+        <div class="module_title">招聘信息</div>
+        <ul>
+
+        </ul>
+    </section>
+    <!--news-->
+    <section class="news">
+        <div class="module_title">新闻资讯</div>
+        <div class="mainNew">
+            <a href="/news//">...</a>
+        </div>
+        <ul>
+
+        </ul>
+    </section>
+    <!--forum-->
+    <section class="forum">
+        <div class="module_title">论坛热点</div>
+        <div class="mainNew">
+            <a href="/forum/topic/">...</a>
+        </div>
+        <ul>
+
+        </ul>
+    </section>
+
+    <div style="clear:both;"></div>
+
+</article>
+
+<!--download-->
+<article class="download">
+    <div class="line">
+        <p>下载中心</p>
+        <hr>
+    </div>
+    <!--code-->
+    <!--<a href="/download/?type=源码">-->
+    <a href="/download/?type=源码">
+        <div class="code">
+            源码<br>Code
+        </div>
+        <img src="/static/img/code.png" alt="">
+
+        <div style="clear:both;"></div>
+        <div class="line">
+            <hr>
+        </div>
+    </a>
+    <!--code-->
+    <!--<a href="/download/?type=策划">-->
+    <a href="/download/?type=策划">
+        <div class="code">
+            策划<br>Plan
+        </div>
+        <img src="/static/img/plan.png" alt="">
+
+        <div style="clear:both;"></div>
+        <div class="line">
+            <hr>
+        </div>
+    </a>
+    <!--code-->
+    <!--<a href="/download/?type=美工">-->
+    <a href="/download/?type=美工">
+        <div class="code">
+            美工<br>Art
+        </div>
+        <img src="/static/img/art.png" alt="">
+
+        <div style="clear:both;"></div>
+        <div class="line">
+            <hr>
+        </div>
+    </a>
+    <!--code-->
+    <!--<a href="/download/?type=游戏">-->
+    <a href="/download/?type=游戏">
+        <div class="code">
+            游戏<br>Game
+        </div>
+        <img src="/static/img/game.png" alt="">
+
+        <div style="clear:both;"></div>
+        <div class="line">
+            <hr>
+        </div>
+    </a>
+    <!--code-->
+    <!--<a href="/download/?type=应用">-->
+    <a href="/download/?type=应用">
+        <div class="code">
+            应用<br>App
+        </div>
+        <img src="/static/img/app.png" alt="">
+
+        <div style="clear:both;"></div>
+        <div class="line">
+            <hr>
+        </div>
+    </a>
+    <!--code-->
+    <!--<a href="/download/?type=工具">-->
+    <a href="/download/?type=工具">
+        <div class="code">
+            工具<br>Tool
+        </div>
+        <img src="/static/img/tool.png" alt="">
+
+        <div style="clear:both;"></div>
+        <div class="line">
+            <hr>
+        </div>
+    </a>
+
+</article>
+
+<div style="clear:both;"></div>
+
+
+<div style="clear:both;"></div>
+<footer>
+    <img class="bImage" src="static/img/bg_Bottom.png" alt="">
+    <div class="bottom">
+        <img class="logo" src="static/img/Logo.png" alt="GameCenter6">
+        <div class="bottom_right">
+            <ul>
+                <li><a href="/">首页</a></li>
+                <li><a href="nav/game.html">游戏</a></li>
+                <li><a href="nav/news.html">资讯</a></li>
+                <li><a href="nav/forum.html">论坛</a></li>
+                <li><a href="nav/download.html">下载</a></li>
+                <li><a href="nav/job.html">招聘</a></li>
+                <li><a href="nav/special.html">数媒</a></li>
+            </ul>
+            <div class="mess">
+                <p>TEL:1234567890</p>
+                <p>E-mail:1234567890@qq.com</p>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+</body></html>

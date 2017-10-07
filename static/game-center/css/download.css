@@ -1,0 +1,207 @@
+table {width: 100%;height: auto;border: none;border-spacing: 0;margin-bottom: 2px;}
+
+.download_module {width: 30%;height: 200px;background: rgba(68,138,202,0.2);}
+.download_module .line {width: 100%;height: 100px;text-align: center;}
+.download_module .line hr{color: #fff;}
+.download_module a{width: 200px;height: 100px;float: left;margin:15px 15px;text-decoration: none;padding: 20px 40px;}
+.download_module a:hover{width: 220px;height: 120px;}
+.download_module .code{width: 80px;height: 80px;padding: 10px 0;position: relative;font-size: 25px;color: rgba(255,255,255,1);font-family: "Century Gothic","Microsoft YaHei";line-height: 30px;word-spacing: 3px;letter-spacing: 3px;float: left;margin-right: 40px;}
+.download_module a img {width: 80px;height: 80px;float: left;position: relative;}
+
+.download_module_con {width: 70%;height: 200px;background: rgba(68,138,202,0.1);vertical-align: top;}
+.pic_link {position: relative;left: 25px;margin-top: 10px;}
+.pic_link a{text-decoration: none;width: 150px;height: 150px;}
+.pic_link a:hover{box-shadow: 2px 2px 5px rgba(255,255,255,0.3);}
+.pic_link a img{width: 150px;height: 150px;margin-top: 10px;}
+.download_module_con ul {float: left;width: 450px;position: relative;}
+.download_module_con ul li{height: 30px;list-style-type: disc;color: rgba(255,255,255,0.8);}
+.download_module_con ul li a{color: rgba(255,255,255,0.8);text-decoration: none;font-family: "Lucida Grande","Century Gothic";font-size: 15px;}
+.download_module_con ul li a:hover{text-decoration: underline;color: rgba(255,255,255,1);}
+.download_module_con ul li i {float: right;font-size: 13px;font-family: "Lucida Grande","Century Gothic";margin-right: 25px;color: rgba(158,173,205,1);}
+
+/*下载详情*/
+.main_article {width: 100%;float: left;height: auto;background: rgba(255,255,255,1);}
+.main_article table {border: solid 1px rgba(0,0,0,0.1);border-spacing: 0;width: 100%;}
+.main_article_con {
+    background: rgba(255,255,255,1);
+    border-left: solid 1px rgba(161,161,161,1);
+    width: 100%;
+    overflow: hidden;
+    vertical-align: top;
+    height: auto;
+}
+/*游戏名称*/
+.main_article_con .title {
+    width:100%;
+    text-align: center;
+    font-family: "Microsoft YaHei";
+    font-size: 20px;
+    color: rgba(0,0,0,1);
+    padding-top: 20px;
+}
+.main_article_con .title a{
+	font-size: 15px;
+	font-family: "Lucida Grande","Century Gothic";
+	color: rgba(120,120,120,1);
+	text-decoration: none;
+}
+.main_article_con .title a:hover {text-decoration: underline;}
+/*作者、上传时间、下载次数*/
+.main_article_con .author {
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    font-family: "Lucida Grande","Century Gothic";
+    color: rgba(120,120,120,1);
+    padding-bottom: 20px;
+    border-bottom: solid 2px rgba(150,150,150,1);
+}
+.main_article_con .author span {
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    font-family: "Lucida Grande","Century Gothic";
+    color: rgba(120,120,120,0.8);
+    text-decoration:none;
+}
+/*内容*/
+.main_article_con .content {
+    width: 90%;
+    margin: 0 auto;
+    color: rgba(0,0,0,1);
+    font-family: "Lucida Grande","Century Gothic";
+    font-size: 15px;
+    text-indent: 2em;
+    line-height: 25px;
+    word-spacing: 5px;
+    margin: 10px auto;
+}
+.main_article_con .news_img {
+    width:50%;
+    height: 300px;
+    margin: 0 auto;
+}
+.main_article_con .news_img img {width: 480px;height: 300px;}
+
+/*下载地址*/
+.download {width: 100%;padding: 10px 0; margin-bottom: 10px;margin-left: 50px;}
+.download span {
+	position: relative;
+    font-size: 15px;
+    font-family: "Lucida Grande","Century Gothic";
+    color: rgba(255,0,0,1);
+    margin-left: 50px;
+}
+.download a{
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+	background: rgba(24,42,74,1);
+    font-size: 15px;
+    font-family: "Lucida Grande","Century Gothic";
+    color: rgba(255,255,255,1);
+    margin-left: 5px;
+    text-decoration: none;
+}
+.download a:hover {
+    text-decoration: underline;
+}
+
+/*内容底部回复评论按钮*/
+.text {font-size: 13px;color: rgba(142,142,142,1);font-family: "Microsoft YaHei";}
+.num {font-size: 13px;color: rgba(255,0,0,1);font-family: "Microsoft YaHei";}
+.main_article_bottom {
+  width: 90%;
+  height: 25px;
+  border-top: dashed 1px rgba(0,0,0,0.7);
+  vertical-align: middle;
+  margin: 10px auto;
+  position: relative;
+  bottom: 0;
+}
+.main_article_bottom a {
+  text-decoration: none;
+  font-family: "Lucida Grande","Century Gothic";
+  font-size: 14px;
+  color: rgba(0,0,0,1);
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  vertical-align: middle;
+  position: relative;
+}
+.main_article_bottom a img {width: 20px;height: 20px;float: left;position: relative;margin-right: 5px;}
+.main_article_bottom a:hover {cursor: pointer;box-shadow:1px 1px 5px #000;}
+
+/*用户信息背景*/
+.reply_user {
+  background: rgba(241,241,241,1);
+  border-right: solid 1px rgba(161,161,161,1);
+  width: 15%;
+  vertical-align: top;
+  overflow: hidden;
+  padding-top: 5px;
+  text-align: center;
+}
+/*用户名片*/
+.user_namecard {margin: 0 auto;margin-top: 15px;height: 250px;text-align: left;width: 120px;position: relative;top: 0;}
+.user_namecard a {text-decoration: none;font-family: "Microsoft YaHei";font-size: 15px;font-weight: bold;color: rgba(0,0,0,0.8);}
+.user_namecard a img {width: 100px;height: 100px;border: solid 10px rgba(255,255,255,1);box-shadow:1px 1px 5px #000;position: relative;margin-bottom: 5px;}
+.user_namecard a:hover {color: rgba(0,0,0,1);text-decoration: underline;}
+
+/*内容背景*/
+.reply_con_bg {
+  background: rgba(255,255,255,1);
+  width: 80%;
+  overflow: hidden;
+  vertical-align: top;
+}
+.reply_con_bg .main_reply {width: 100%;margin: 0 auto;}
+/*发表时间 楼层*/
+.main_reply_banner {width: 90%;height: 25px;margin: 0 auto;border-bottom: dashed 1px rgba(0,0,0,0.7);vertical-align: middle;margin-top: 10px;}
+.main_reply_banner img {width: 20px;height: 20px;float: left;position: relative;margin-right: 5px;}
+.main_reply_banner .reply_time {font-family: "Lucida Grande","Century Gothic";font-size: 15px;color: rgba(0,0,0,1);float: left;}
+.main_reply_banner .reply_floor {font-family: "Lucida Grande","Century Gothic";font-size: 15px;color: rgba(0,0,0,1);float: right;}
+/*正文*/
+.reply_con_bg .main_reply_con {width: 90%;height: auto;margin: 0 auto;}
+.reply_con_bg .main_reply_con img {cursor: pointer;position: relative;margin-top: 10px;}
+.reply_con_bg .main_reply_con img:hover {box-shadow:1px 1px 5px #000;}
+.reply_con_bg .main_reply_con p{text-indent: 2em;color: #000;font-size: 15px;font-family: "Lucida Grande","Century Gothic";}
+.reply_con_bg .main_reply_con p a{text-decoration: none;font-size: 15px;font-family: "Lucida Grande","Century Gothic";color: rgba(0,0,255,1);}
+.reply_con_bg .main_reply_con p a:hover{text-decoration: underline;color: rgba(255,0,0,1);}
+.reply_con_bg .main_reply_con p a:active {text-decoration: underline;color: rgba(255,0,0,1);}
+.reply_con_bg .main_reply_con p a:visited {text-decoration: none;color: rgba(40,0,0,1);}
+
+/*回复区*/
+.reply {width: 90%;height: 180px;word-wrap: break-word;margin: 0 auto;margin-top: 20px;border: solid 1px rgba(0,0,0,0.8);border-bottom:solid 1px rgba(0,0,0,0.5);}
+.reply_banner {width: 100%;height: 30px;background: rgba(241,241,241,1);display: block;border-bottom: solid 1px rgba(0,0,0,0.8);}
+.reply_banner a {
+  text-decoration: none;
+  float: left;
+  width: 30px;
+  height: 25px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  padding-top: 5px;
+}
+.reply_banner .add_attachments {color: rgba(0,0,0,0.8);width: auto;font-size: 15px;height: 22px;padding-top: 8px;margin-left: 30px;}
+.reply_banner a:hover {box-shadow: 1px 1px 2px rgba(0,0,0,0.3);}
+.reply_area {padding: 5px;}
+textarea {width: 100%;height: 100%;border: none;overflow-y: auto;font-size: 15px;font-family: "Lucida Grande","Century Gothic";}
+.reply button {
+  width: 15%;
+  height: 25px;
+  border: solid 1px rgba(255,0,0,1);
+  background: rgba(255,20,20,1);
+  margin-top: 20px;
+  float: right;
+  color: rgba(255,255,255,1);
+  font-size: 15px;
+  font-family: "Microsoft YaHei";
+  cursor: pointer;
+}
+.reply button:hover {font-weight:bold;}

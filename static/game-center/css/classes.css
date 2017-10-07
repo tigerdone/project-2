@@ -1,0 +1,39 @@
+.class_con {
+	width: 100%;
+	background: rgba(68,138,202,0.1);
+	padding: 10px 0;
+}
+.con_li{
+	width: 95%;
+}
+.con_li ul li {
+	width: 100%;
+	margin-top: 25px;
+	color: rgba(255,255,255,1);
+	border-bottom: dashed 1px rgba(255,255,255,0.5);
+	list-style-type: disc;
+	vertical-align: bottom;
+	width: 57em;
+	word-break:keep-all;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.con_li ul li a{
+	color: rgba(255,255,255,0.8);
+	font-size: 18px;
+	font-family:  "Lucida Grande","Century Gothic";
+	text-decoration: none;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.con_li ul li a:hover {
+	color: rgba(255,255,255,1);
+}
+.con_li ul li em{
+	font-size: 13px;
+	color: rgba(255,255,255,0.8);
+	font-family:  "Lucida Grande","Century Gothic";
+	float: right;
+}
+	

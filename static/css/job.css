@@ -1,0 +1,95 @@
+/*工作分类*/
+.job_classes {
+	background: rgba(68,138,202,0.1);
+	width: 98%;
+	height: auto;
+	margin-bottom: 10px;
+	padding: 5px 10px;
+}
+.job_classes dl {
+	overflow: hidden;
+	display: block;
+	margin: 5px 0;
+	vertical-align: middle;
+}
+.job_classes dl dt {
+	color: rgba(255,255,255,0.7);
+	font-family: "Lucida Grande","Century Gothic";
+	font-size: 15px;
+	float: left;
+}
+.job_classes dl dd {display: block;float: left;margin-left: 10px;}
+.job_classes dl dd a {
+	color: rgba(255,255,255,0.7);
+	font-family: "Lucida Grande","Century Gothic";
+	font-size: 15px;
+	text-decoration: none;
+	padding: 0 2px;
+}
+.job_classes dl dd a:hover {color: rgba(255,255,255,1);}
+
+/*文字*/
+.new_job ul li, 
+.job_module ul li,
+.job_module_2 ul li{
+	height: 33px;
+	list-style-type: disc;
+	color: rgba(255,255,255,0.8);
+	font-family: "Microsoft YaHei";
+	font-size: 13px;
+	margin-left: -10px;
+}
+.new_job ul li .site, 
+.job_module ul li .site,
+.job_module_2 ul li .site {font-family: "Microsoft YaHei";font-size: 13px;color: rgba(255,255,255,0.8);}
+.new_job ul li a, 
+.job_module ul li a,
+.job_module_2 ul li a{
+	font-family: "Lucida Grande","Century Gothic";
+	font-size: 17px;
+	text-decoration: none;
+	color: rgba(255,255,255,0.8);
+	margin-left: 3px;
+}
+.new_job ul li a:hover, 
+.job_module ul li a:hover,
+.job_module_2 ul li a:hover {text-decoration: underline;color: rgba(255,255,255,1);}
+.new_job ul li em, 
+.job_module ul li em,
+.job_module_2 ul li em{float: right;font-size: 12px;color: rgba(255,255,255,0.7);margin-right: 15px;}
+
+
+/*最新招聘信息*/
+.new_job {
+	width: 100%;
+	height: 340px;
+	background: rgba(68,138,202,0.1);
+	margin-bottom: 10px;
+}
+.new_job .new_job_part {
+	width: 48%;
+	height: 340px;
+	margin: 0 10px;
+	float: left;
+}
+/*图片*/
+.new_job .new_job_part a img {
+	width: 455px;
+	height: 265px;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+.new_job .new_job_part a:hover img {
+	box-shadow: 1px 1px 3px rgba(255,255,255,0.3);
+}
+
+/*job_module*/
+.job_module {
+	background: rgba(68,138,202,0.1);
+	width: 32.8%;
+	height: auto;
+	margin-bottom: 5px;
+	float: left;
+	margin-left: 3px;
+	min-height: 400px;
+}

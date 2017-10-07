@@ -1,0 +1,206 @@
+/*左侧菜单*/
+.user_left {
+	width: 20%;
+	background: rgba(68,138,202,0.1);
+	float: left;
+}
+.user_card {
+	width: 100%;
+	height: 220px;
+	border-bottom: solid 1px rgba(68,138,202,0.5);
+}
+/*头像*/
+.user_card a img{
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	margin: 20px 30px;
+	position: relative;
+	border:solid 2px rgba(255,255,255,0.5);
+}
+.user_card a:hover img{transform:scale(1.1);}
+/*信息*/
+.user_mes {
+	width: 100%;
+	height: auto;
+	margin: 0 30px;
+	color: rgba(255,255,255,1);
+	font-family: "Microsoft YaHei";
+	font-size: 15px;
+	line-height: 30px;
+}
+/*菜单*/
+.user_menu {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.user_menu a {
+	position: relative;
+	text-decoration: none;
+	text-align: center;
+	font-family: "Microsoft YaHei";
+	font-size: 15px;
+	font-weight: bold;
+	color: rgba(255,255,255,1);
+	padding: 15px 70px;
+	line-height: 50px;
+}
+.user_menu a:hover {
+	background: rgba(68,138,202,0.5);
+}
+.user_menu a:active {
+	background: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
+}
+/*选中*/
+.user_menu .focus{
+	background: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
+}
+
+/*内容*/
+.user_main_con {
+	width: 78%;
+	height: auto;
+	background: #fff;
+	float: left;
+	padding: 10px;
+}
+.con_module_header {
+	width: 100%;
+	height: 50px;
+	border-bottom: solid 1px rgba(0,0,0,0.8); 
+}
+.con_module_header .title {
+	width: 25%;
+	height: 35px;
+	text-align: center;
+	vertical-align: middle;
+	background: rgba(68,138,202,0.5);
+	color: rgba(255,255,255,1);
+	font-family: "Microsoft YaHei";
+	font-size: 17px;
+	font-weight: bold;
+	padding-top: 15px;
+}
+/*详细内容*/
+table {
+	overflow: hidden;
+	display: block;
+	height: auto;
+	position: relative;
+	left: 40px;
+	width: 90%;
+}
+table tr {
+	line-height: 40px;
+}
+table tr td {
+
+	display: block;
+	float: left;
+	font-family: "Microsoft YaHei","Century Gothic";
+	line-height: 40px;
+	text-align: justify;
+	word-wrap: break-word;
+	word-break: normal;
+}
+.subject {width: 100px;}
+.con {width: 580px;}
+
+/*编辑内容样式*/
+form {margin-top: 20px;}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    margin: 0; 
+    vertical-align: baseline; 
+    *vertical-align: middle; 
+    width: 250px;
+    height: 30px;
+    display: block;
+    border-radius: 5px;
+    border: solid 1px rgba(0,0,0,0.5);
+    background:rgba(255,255,255,1);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(0,0,0,0.6);
+    font-family: "Lucida Grande";
+    padding-left: 20px;
+}
+textarea{padding-top: 10px;height:100px;width: 580px;}
+input[type="file"] {
+    margin: 0; 
+    vertical-align: baseline; 
+    *vertical-align: middle; 
+    width: 270px;
+    height: 30px;
+    display: block;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(255,255,255,1);
+    font-family: "Lucida Grande";
+    -moz-opacity: 0; /* 兼容老式浏览器 */ 
+    filter: alpha(opacity=0); /* 兼容IE */ 
+}
+textarea:focus,
+input:focus{
+    border: solid 1px rgba(0,0,0,1);
+    color: rgba(0,0,0,1);
+}
+/*按钮*/
+button {
+    width: 150px;
+    height: 40px;
+    display: block;
+    border-radius: 10px;
+    background:rgba(68,138,202,0.8);
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(255,255,255,1);
+    font-family: "Microsoft YaHei";
+    margin-top: 30px;
+    margin-left: 550px;
+    margin-bottom: 15px;
+}
+button:hover,
+button:focus {
+    background: rgba(68,138,202,1);
+}
+/*编辑资料、简历、游戏、帖子内容*/
+.edt_inf,
+.edt_res,
+.user_game,
+.user_post {
+	width: 78%;
+	height: auto;
+	background: #fff;
+	float: left;
+	padding: 10px;
+
+}
+
+/*games*/
+.user_game ul {margin: 30px 0;}
+.user_game ul li{display: inline-block; text-align: center;margin-right: 15px;width: 80px;height: 110px;margin-bottom: 20px;}
+.user_game ul li a img{box-shadow:1px 1px 5px #000;border-radius: 15px;width: 72px;height: 72px;margin-bottom: 5px;position: relative;}
+.user_game ul li a {text-decoration: none; color: rgba(0,0,0,0.6); font-family: "Lucida Grande","Century Gothic";}
+.user_game ul li a:hover{ color: rgba(0,0,0,1);}
+
+/*posts*/
+.user_post ul li{height: 30px;list-style-type: disc;color: rgba(0,0,0,1);
+}
+.user_post ul li a{color: rgba(0,0,0,0.8);text-decoration: none;font-family: "Lucida Grande","Century Gothic";font-size: 15px;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow:ellipsis;
+}
+.user_post ul li a:hover{text-decoration: underline;color: rgba(0,0,0,1);}
+.user_post ul li em{font-size: 13px;font-family: "Lucida Grande","Century Gothic";color: rgba(0,0,0,0.7);float: right;margin-right: 20px;}

@@ -1,0 +1,122 @@
+body{margin:0;background-color:#08192a;overflow-x : hidden;}
+header {width: 100%;height: 200px;overflow: hidden;position: relative;}
+.contents {width: 1000px;height: auto;margin: 0 auto;z-index: 10;position: relative;background: rgba(68,138,202,0.1);}
+
+form {
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+label {font-family: "Microsoft YaHei";font-size: 17px;color: rgba(255,255,255,1);float: left; margin: 10px;width: 80px;}
+.module_section {width: 100%;height: auto;margin: 10px;text-align: right;text-align: center}
+.moudle_button{margin: 0 auto;width: 400px;}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    margin: 0; 
+    vertical-align: baseline; 
+    *vertical-align: middle; 
+    width: 250px;
+    height: 35px;
+    display: block;
+    border-radius: 5px;
+    border: solid 1px rgba(255,255,255,0.5);
+    background:rgba(24,42,74,0.8);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(255,255,255,1);
+    font-family: "Lucida Grande";
+    padding-left: 20px;
+}
+textarea{padding-top: 10px;height: 70px;}
+input[type="file"] {
+    margin: 0; 
+    vertical-align: baseline; 
+    *vertical-align: middle; 
+    width: 270px;
+    height: 35px;
+    display: block;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(255,255,255,1);
+    font-family: "Lucida Grande";
+    -moz-opacity: 0; /* 兼容老式浏览器 */ 
+    filter: alpha(opacity=0); /* 兼容IE */ 
+}
+textarea:focus,
+input:focus{
+    border: solid 1px rgba(255,255,255,1);
+    background:rgba(24,42,74,0.5);
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    display: block;
+    border-radius: 10px;
+    border: solid 1px rgba(255,255,255,0.5);
+    background:rgba(24,42,74,0.8);
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(255,255,255,0.5);
+    font-family: "Microsoft YaHei";
+    margin: 10px 20px;
+    float: left;
+}
+button:hover,
+button:focus {
+    background: rgba(24,42,74,1);
+    border-color:rgba(255,255,255,1);
+    color: rgba(255,255,255,1);
+}
+button:active {
+    background: rgba(24,42,74,1);
+}
+
+button,
+input {
+    line-height: normal; 
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    cursor: pointer; /* 光标显示为手 */
+    -webkit-appearance: button; /* 按钮 */
+    *overflow: visible; 
+}
+
+button[disabled],
+input[disabled] {
+    cursor: default;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+    *height: 13px; /* 3 */
+    *width: 13px; /* 3 */
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: solid 1px rgba(134,45,56,1);
+    padding: 0;
+}
+
+textarea {
+    overflow: auto; /* 1 */
+    vertical-align: top; /* 2 */
+}

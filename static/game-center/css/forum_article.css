@@ -1,0 +1,179 @@
+/*menu*/
+/*发帖回复*/
+.menuBar{width: 1000px;margin: 0 auto;height: 50px;margin-top: 5px;}
+.menuBar .a_btn {
+    width: 8%;
+    height: 20px;
+    display: block;
+    border-radius: 50px;
+    border: solid 1px rgba(255,255,255,0.5);
+    background:rgba(24,42,74,0.8);
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(255,255,255,0.7);
+    font-family: "Microsoft YaHei";
+    padding:5px;
+    float: left;
+    margin-right: 20px;
+}
+.menuBar .a_btn:hover,
+.menuBar .a_btn:focus {
+    background: rgba(24,42,74,1);
+    border-color:rgba(255,255,255,1);
+    color: rgba(255,255,255,1);
+}
+.menuBar .a_btn:active {
+    background: rgba(24,42,74,1);
+}
+/*页码*/
+.page{float: right;}
+.menuBar .a_num {
+    width: auto;
+    height: 20px;
+    display: block;
+    border: solid 1px rgba(255,255,255,0.5);
+    background:rgba(24,42,74,0.8);
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(255,255,255,0.7);
+    font-family: "Microsoft YaHei";
+    padding:5px;
+    float: left;
+    margin-right: 5px;
+    position: relative;
+    right: 0;
+}
+.menuBar .a_num:hover,
+.menuBar .a_num:focus {
+    background: rgba(24,42,74,1);
+    border-color:rgba(255,255,255,1);
+    color: rgba(255,255,255,1);
+}
+.menuBar .a_num:active {
+    background: rgba(24,42,74,1);
+}
+
+/*main_article*/
+table {width: 1000px;height: auto;border: solid 1px rgba(0,0,0,0.1);border-spacing: 0;margin-bottom: 5px;margin-top: -10px;}
+/*用户信息背景*/
+.article_user_bg {
+	background: rgba(241,241,241,1);
+	border-right: solid 1px rgba(161,161,161,1);
+	width: 15%;
+	vertical-align: top;
+	overflow: hidden;
+	padding-top: 5px;
+	text-align: center;
+}
+/*数据统计*/
+.article_stat {margin: 0 auto;position: relative;top: 5px;}
+.text {font-size: 13px;color: rgba(142,142,142,1);font-family: "Microsoft YaHei";}
+.num {font-size: 13px;color: rgba(255,0,0,1);font-family: "Microsoft YaHei";}
+/*用户名片*/
+.user_namecard {margin: 0 auto;margin-top: 15px;height: 190px;text-align: left;width: 120px;position: relative;top: 0;}
+.user_namecard a {text-decoration: none;font-family: "Microsoft YaHei";font-size: 15px;font-weight: bold;color: rgba(0,0,0,0.8);}
+.user_namecard a img {width: 100px;height: 100px;border: solid 10px rgba(255,255,255,1);box-shadow:1px 1px 5px #000;position: relative;margin-bottom: 5px;}
+.user_namecard a:hover {color: rgba(0,0,0,1);text-decoration: underline;}
+/*内容背景*/
+.article_con_bg {
+	background: rgba(255,255,255,1);
+	border-left: solid 1px rgba(161,161,161,1);
+	width: 85%;
+	overflow: hidden;
+	vertical-align: top;
+}
+/*标题格式*/
+/*分类*/
+.article_class {float: left;margin:5px 0 5px 25px;vertical-align: bottom;padding-top: 7px;}
+.article_class a{text-decoration: none;font-size: 15px;font-family: "Lucida Grande","Century Gothic";color: rgba(120,120,120,1);position: relative;bottom: 0px; }
+.article_class a:hover{text-decoration: underline;}
+/*标题*/
+.article_title {float: left;margin-left: 10px; margin-top: 12px}
+.article_title a{
+	text-decoration: none;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+	font-family: "Microsoft YaHei";
+	font-weight: bold;
+}
+.article_title a:hover{
+	text-decoration: underline;
+}
+/*帖子内容*/
+.main_article {width: 800px;margin: 0 auto;}
+/*发表时间 楼层*/
+.main_article_banner {width: 100%;height: 25px;border-bottom: dashed 1px rgba(0,0,0,0.7);vertical-align: middle;margin-top: 10px;}
+.main_article_banner img {width: 20px;height: 20px;float: left;position: relative;margin-right: 5px;}
+.main_article_banner .article_time {font-family: "Lucida Grande","Century Gothic";font-size: 15px;color: rgb(119, 119, 119);float: left;}
+.main_article_banner .article_floor {font-family: "Lucida Grande","Century Gothic";font-size: 15px;color: rgb(119, 119, 119);float: right;}
+/*正文*/
+.main_article_con {width: 100%;height: auto; padding-top: 10px}
+.main_article_con img {cursor: pointer;position: relative;margin-top: 10px;}
+.main_article_con img:hover {box-shadow:1px 1px 5px #000;}
+.main_article_con p{text-indent: 2em;color: #000;font-size: 15px;font-family: "Lucida Grande","Century Gothic";}
+.main_article_con p a{text-decoration: none;font-size: 15px;font-family: "Lucida Grande","Century Gothic";color: rgba(0,0,255,1);}
+.main_article_con p a:hover{text-decoration: underline;color: rgba(255,0,0,1);}
+.main_article_con p a:active {text-decoration: underline;color: rgba(255,0,0,1);}
+.main_article_con p a:visited {text-decoration: none;color: rgba(40,0,0,1);}
+/*内容底部回复评论按钮*/
+.main_article_bottom {
+	width: 800px;
+	height: 25px;
+	border-top: dashed 1px rgba(0,0,0,0.7);
+	vertical-align: middle;
+	margin-top: 10px;
+	margin-left: 25px;
+	position: relative;
+	bottom: 0;
+}
+.main_article_bottom a {
+	text-decoration: none;
+	font-family: "Lucida Grande","Century Gothic";
+	font-size: 14px;
+	color: rgba(0,0,0,1);
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	vertical-align: middle;
+	position: relative;
+}
+.main_article_bottom a img {width: 20px;height: 20px;float: left;position: relative;margin-right: 5px;}
+.main_article_bottom a:hover {cursor: pointer;box-shadow:1px 1px 5px #000;}
+
+/*回复区*/
+.reply {width: 800px;height: 180px;word-wrap: break-word;margin: 0 auto;margin-top: 20px;}
+.reply_banner {width: 100%;height: 30px;background: rgba(241,241,241,1);display: block;border-bottom: solid 1px rgba(0,0,0,0.8);}
+.reply_banner a {
+	text-decoration: none;
+	float: left;
+	width: 30px;
+	height: 25px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000;
+	padding-top: 5px;
+}
+.reply_banner .add_attachments {color: rgba(0,0,0,0.8);width: auto;font-size: 15px;height: 22px;padding-top: 8px;margin-left: 30px;}
+.reply_banner a:hover {box-shadow: 1px 1px 2px rgba(0,0,0,0.3);}
+.reply_area {padding: 5px; border: 1px solid #1f6977}
+textarea {width: 98%;height: 100%; border: none;overflow-y: auto;font-size: 15px;font-family: "Lucida Grande","Century Gothic"; padding: 5px; resize: none}
+.reply button {
+	width: 12.5%;
+	height: 25px;
+	border: solid 1px rgba(255,0,0,1);
+	background: rgba(255,20,20,1);
+	margin-top: 20px;
+	float: right;
+	color: rgba(255,255,255,1);
+	font-size: 15px;
+	font-family: "Microsoft YaHei";
+	cursor: pointer;
+}
+.reply button:hover {font-weight:bold;}
